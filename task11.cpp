@@ -10,7 +10,7 @@ main()
     cin>>b;
     cout<<"Enter operator(+,-,/,*):";
     cin >> op;
-   }  
+}  
     if (op == '+')
 {
     c = a + b;

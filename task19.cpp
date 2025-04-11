@@ -1,6 +1,6 @@
 #include<iostream>
 using namespace std;
-void func(int a,int c);
+void func(int a,int b);
 main()
 {
     int a,b;
