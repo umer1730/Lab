@@ -4,7 +4,7 @@ void printTable(int number)
 {
     for (int i = 1; i <= 10; i++) 
     {
-        cout << number << " * " << i << " = " << number * i << endl;
+        cout<< number << " * " << i << " = " << number * i << endl;
     }
 }
 int main() 
