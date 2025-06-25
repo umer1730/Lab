@@ -10,4 +10,4 @@ main()
         cin >> username;
         printname(username);
     }
-}
+}   
