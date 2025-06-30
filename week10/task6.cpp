@@ -1,6 +1,7 @@
-#include <iostream>
+#include<iostream>
 using namespace std;
-int main() {
+int main() 
+{
     const int SIZE = 10;
     int packages[SIZE];
     cout << "Enter the weights of 10 packages: ";

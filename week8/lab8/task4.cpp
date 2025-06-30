@@ -29,6 +29,6 @@ int main()
     cout << "Enter a number: ";
     cin >> n;
     int result = primenumbers(n);
-    cout<<result0<< endl;
+    cout<<result<< endl;
     return 0;
 }
