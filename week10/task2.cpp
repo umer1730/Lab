@@ -13,7 +13,7 @@ main()
     for (int i = 0;i < n;i++)
     {
         cout<<"Enter word ";
-        cin>>array[i];  
+         cin>>array[i];  
         for(int j=0;j < array[i].length();j++)
         {
             if(array[i][j]==ch)

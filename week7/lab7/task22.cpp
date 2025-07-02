@@ -1,4 +1,4 @@
-#include <iostream>
+#include<iostream>
 using namespace std;
 int calculateMoney(int age, int washingMachinePrice, int toyPrice) 
 {
@@ -18,9 +18,11 @@ int calculateMoney(int age, int washingMachinePrice, int toyPrice)
         }
     }
     moneySaved += (totalToys * toyPrice);
-    if (moneySaved >= washingMachinePrice) {
+    if (moneySaved >= washingMachinePrice) 
+    {
         cout << "Yes! " << moneySaved - washingMachinePrice << endl;
-    } else {
+    } 
+    else {
         cout << "No! " << washingMachinePrice - moneySaved << endl;
     }
     return 0;

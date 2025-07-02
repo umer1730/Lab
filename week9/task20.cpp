@@ -1,6 +1,6 @@
 #include<iostream>
 using namespace std;
-void jazzifyChords(std::string chords[], int numChords) 
+void jazzifyChords(string chords[], int numChords) 
 {
     for (int i = 0; i < numChords; i++) 
     {

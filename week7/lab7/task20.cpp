@@ -3,18 +3,18 @@ using namespace std;
 int digitSum(int number) 
 {
     int sum = 0;
-    for (; number != 0; number /= 10) 
+    while (number != 0) 
     {
-        sum += number % 10;
+        sum = sum + (number%10);
+        number = number/10;
     }
     return sum;
 }
 int main() 
 {
-    int num;
+    int number;
     cout << "Enter a number: ";
-    cin >> num;    
-    int result = digitSum(num);
-    cout << "Sum of digits: " << result << endl;
+    cin >> number;
+    cout << "Sum of digits: " << digitSum(number) << endl;
     return 0;
 }

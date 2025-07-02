@@ -1,6 +1,7 @@
-#include <iostream>
+#include<iostream>
 using namespace std;
-int main() {
+int main() 
+{
     string input, word, reversedString = "";
     cout << "Enter a string: ";
     getline(cin, input);

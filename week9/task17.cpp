@@ -9,7 +9,7 @@ int main()
 {
     string input;
     cout<<"Enter a string: ";
-    cin>>input;
+    getline(cin, input);
     cout<<"Result: ";
     printSomething(input);
     return 0;
