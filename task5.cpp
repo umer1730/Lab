@@ -5,7 +5,7 @@ main()
 {
     func();
 }
-void func()
+func()
 {
     int a,b;
     cout<<"Enter the distance:";
