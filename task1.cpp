@@ -1,7 +1,7 @@
 #include <iostream>
 using namespace std;
 int main()
-{   cout<<"file"
+{   cout<<"file";
     int num1;
     int num2;
     int num3;
