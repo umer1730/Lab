@@ -1,0 +1,6 @@
+101 300 Double
+102 320 Double
+103 220 Single
+104 190 Normal
+105 500 Bussiness
+106 435 Suit
