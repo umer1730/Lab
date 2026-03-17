@@ -13,20 +13,20 @@ main()
 }  
     if (op == '+')
 {
-    c = a + b;
-    cout<<"Sum:"<<c ;
+        c = a + b;
+        cout<<"Sum:"<<c ;
 }
- if (op == '*')
+    if (op == '*')
 {
     c = a*b;
     cout<<"Multiplication:"<<c;
 }
- if (op == '-')
+    if (op == '-')
 {
     c = a-b;
     cout<<"Subtraction:"<<c;
 }
- if (op ==  '/' );
+    if (op ==  '/' );
 {
     c = a / b;
     cout<<"Division:"<<c;
