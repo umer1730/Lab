@@ -1,6 +1,7 @@
 #include<iostream>
 using namespace std;
 main()
+
 {
  int rupee = 200;
  int inputValue = 10;
