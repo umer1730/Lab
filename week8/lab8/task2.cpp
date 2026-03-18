@@ -25,6 +25,7 @@ double geteffectiveness(string yourtype,string opponenttype)
         }
         return 1.0;
     }
+    
     double calculatedamage(string yourtype,string opponenttype,int attack,int defense)
     {
     double effectiveness = geteffectiveness(yourtype,opponenttype);
