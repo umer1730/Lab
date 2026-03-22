@@ -13,6 +13,7 @@ int cal_fact(int n){
 
     return factorial;
 }
+
 int main(){
     cout << "Factorial is: " << cal_fact(5);
 }
