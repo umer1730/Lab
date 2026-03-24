@@ -7,6 +7,7 @@ int cal_sum(int n){
     }
     return sum;
 }
+
 int main(){
     cout<<cal_sum(5);
 }
