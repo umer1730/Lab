@@ -12,7 +12,6 @@ bool prime_no(int n){
     }
     return true; 
 }
-
 int main(){
     int num = 7;
 
