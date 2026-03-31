@@ -6,6 +6,7 @@ using namespace std;
 //         return s;
 //     }
 int min_of_two(int x,int y){
+    
     if (x < y){
         return x;
     }
