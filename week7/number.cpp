@@ -2,6 +2,7 @@
 using namespace std;
 main()
 {
-  int roll no;
-  cout<<roll no;
+  int roll_no=123;
+  cout<<roll_no;
+  
 } 
