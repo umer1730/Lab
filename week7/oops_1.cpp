@@ -10,12 +10,14 @@ public:
         name = n;
         marks = m;
     }
+
 void display(){
     cout<<"Roll number: "<<rollNumber<<endl;
     cout<<"Nmae: "<<name<<endl;
     cout<<"Marks: "<<marks<<endl;
 }
 };
+
 int main(){
     Student s1,s2;
     s1.setData(1,"Ali",85.5);
