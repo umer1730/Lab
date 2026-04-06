@@ -1,6 +1,7 @@
 #include<iostream>
 #include<vector>
 using namespace std;
+
 vector<int> pairSum(vector<int> nums,int target){
     vector<int> ans;
     int n = nums.size();
@@ -24,7 +25,9 @@ vector<int> pairSum(vector<int> nums,int target){
     return ans;
 
 } 
-int main(){
+
+int main()
+{
     vector<int> nums = {2,7,11,15};
     int target = 13;
 
