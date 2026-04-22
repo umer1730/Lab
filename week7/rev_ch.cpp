@@ -7,6 +7,7 @@ int main(){
         char ch='A';
         for(int j=0;j<i;j++){    
             ch=ch+1;
+            
             cout<<" ";
         }
         for(int j=0;j<n-i;j++){
