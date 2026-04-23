@@ -9,6 +9,7 @@ int reverseNum(int num){
     }
     return rev;
 }
+
 int main(){
     int num;
     cout<<"Enter num: ";
