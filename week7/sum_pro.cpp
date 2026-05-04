@@ -9,7 +9,8 @@ int calculate(int arr[],int size,int &sum,int &product){
         product *= arr[i];
     }
 }
-int main(){
+int main()
+{
     int arr[] = {1,2,3,4};
     int size = 4;
     int sum,product;
