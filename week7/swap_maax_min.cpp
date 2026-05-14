@@ -23,6 +23,7 @@ void swapMinMax(int arr[], int size) {
 }
 
 int main() {
+    
     int arr[] = {5, 2, 9, 1, 7};
     int size = 5;
     swapMinMax(arr, size);
