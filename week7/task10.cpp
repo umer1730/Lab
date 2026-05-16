@@ -16,7 +16,7 @@ system("color 80");
  cout<<"Enter the number of losses:";
  cin>>losses;
  int points;
- Pakistan points= 1*3;
+ points= 1*3;
  cout<<" points is:"<< points;
 }
  
