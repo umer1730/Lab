@@ -10,6 +10,7 @@ int fact(int val){
     }
 }
 int main(){
+    cout<<"Facotorial: ";
     cout<<fact(4);
     return 0;
 }
